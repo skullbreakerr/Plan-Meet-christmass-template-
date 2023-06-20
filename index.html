@@ -1,0 +1,99 @@
+<head>
+<meta charset="utf-8" />
+<title>Plan Meet</title>
+<link
+  type="text/css"
+  rel="stylesheet"
+  href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body >
+<div id="app">
+  <div class="header">PLAN  MEET</div>
+  <br/>
+
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/fir-codelab-acc45.appspot.com/o/christmassParty-614867390-612x612.jpg?alt=media&token=d7fc799d-a2a6-40f9-b75e-cafbfa07de3b"
+  />
+
+  <section id="event-details-container">
+    <h1 class="partyTitle">Christmass Party</h1>
+
+    <p><i class="material-icons">calendar_today</i> December 25</p>
+    <p><i class="material-icons">location_city</i> Ridhhi Sidhhi hall</p>
+    <br />
+    <button id="startRsvp">Log in</button>
+    <button id="login">Sign Up</button>
+    <br />
+  </section>
+
+  <hr />
+
+  <section id="firebaseui-auth-container"></section>
+
+  <section id="description-container">
+    <br />
+  
+    <p id="number-attending"></p>
+    <h2>Timing for the Party </h2>
+    <p>From : 8pm onwards</p>
+    
+    
+  </section>
+
+  <section id="guestbook-container">
+    <h3>Wear red and white combination clothes for the party</h3>
+
+    <hr/>
+    <h2>Are you Coming ?</h2>
+    <button id="rsvp-yes">YES</button>
+    <button id="rsvp-no">NO</button>
+    <br />
+    <br />
+    <br />
+    <h4>Practice below dance steps for party </h4> 
+    <div class="video-container">
+    <iframe width="360" height="315" src="https://www.youtube.com/embed/n5uIahQw9sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></iframe>
+    </div>
+    
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+  
+    <h2>GROUP DISCUSSION</h2>
+
+    <form id="leave-message">
+      <br />
+      <label style="color:white;">Message: </label>
+      <input type="text" class="icolor" id="message" placeholder="Type here.. " required/>
+      <button type="submit">
+        <i class="material-icons">send</i>
+        <span>SEND</span>
+      </button>
+    </form>
+
+    <section id="guestbook" class="fontis"></section>
+  </section>
+  <br />
+  <hr />
+  <section>
+    <br />
+    <h4 class="dev">-- Lazzy Coders --</h4>
+  </section>
+</div>
+</body>
+<div id="app"></div>

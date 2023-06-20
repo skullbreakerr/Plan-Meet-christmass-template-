@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+
+@media all and (min-width: 360px) {
+  #app {
+    max-width: auto;
+    margin: auto;
+  }
+  .header{
+    font-family: 'Mountains of Christmas', cursive;
+    letter-spacing:20px;
+    text-align: center;
+    background-color:  rgb(255, 1, 43);
+    color:white;
+    font-size: 25px;
+    width: 100%;
+    position:fixed;
+  }
+}
+@media all and (min-width: 280px) and (max-width: 360px) {
+  #app {
+    max-width: auto;
+    margin: auto;
+  }
+  .header{
+    font-family: 'Mountains of Christmas', cursive;
+    letter-spacing:20px;
+    text-align: center;
+    background-color:  rgb(255, 1, 43);
+    color:white;
+    font-size: 15px;
+    width: 100%;
+    position:fixed;
+  }
+  
+  
+}
+
+@media all and (max-width: 599px) {
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 25px;
+  }
+}
+
+@media all and (min-width: 600px) {
+  section {
+    clear: both;
+    display: block;
+  }
+  #event-details-container {
+    clear: none;
+  }
+  img {
+    width: 60%;
+    height: 400px;
+    float: left;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+  }
+   
+  
+}
+ 
+ 
+
+.header:hover{
+  color: rgb(255, 1, 43);
+  background-color: white;
+  transition: 1s;
+}
+hr {
+  clear: both;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.partyTitle{
+  font-family: 'Mountains of Christmas', cursive;
+  color: rgb(255, 255, 255);
+}
+
+body{
+  margin:0;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/fir-codelab-acc45.appspot.com/o/starsphoto-1475274047050-1d0c0975c63e.jpg?alt=media&token=466c1bd6-db33-421a-8c50-b7a475c78909');
+  object-fit: cover;
+}
+section {
+  margin: 20px;
+}
+
+.material-icons {
+  padding-right: 10px;
+  color: aliceblue;
+}
+hr{
+  border-color: green;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family:  'Mountains of Christmas','cursive';
+  font-weight: normal;
+  color: aliceblue;
+}
+ 
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+h5 {
+  text-decoration-style: wavy;
+  text-align-last: center;
+}
+
+label {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#guestbook > p {
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid white;
+  font-size: 14px;
+  padding: 4px 0;
+  background: 0 0;
+  text-align: left;
+  color: inherit;
+}
+
+button.clicked {
+  background-color: rgb(165, 0, 28);
+  border-color: rgb(165, 0, 28);
+  color: white;
+  outline-color: rgb(165, 0, 28);
+}
+
+button,
+button.firebaseui-id-submit.mdl-button--raised.mdl-button--colored {
+  align-items: center;
+  background-color: rgb(165, 0, 28);
+  border-color: #1f1f1f;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: none;
+  color: white;
+  cursor: default;
+  display: inline-flex;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 36px;
+  justify-content: center;
+  margin: 8px 16px;
+  outline-color: rgb(165, 0, 28);
+  overflow: hidden;
+  padding: 0px 15px;
+  position:static;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+button:hover{
+  color: rgb(165, 0, 28);
+  border-color: rgb(165, 0, 28);
+  background-color: rgba(0, 0, 0, 0.11);
+}
+button.firebaseui-id-submit.mdl-button--raised.mdl-button--colored:hover{
+  color: White;
+  border-color: #1f1f1f;
+  background-color: rgb(165, 0, 28);
+}
+.dev{
+  text-align: center;
+  font-family: 'Rubik Iso', cursive;
+  color: rgb(165, 0, 28);
+}
+.icolor{
+  color:white;
+}
